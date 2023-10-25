@@ -19,12 +19,12 @@ def tizesbolValtas(szam, dst_numSys, DEBUG=0):
     if DEBUG: print(result)
 
     result_str=""
-    i=len(result)-1
+    #i=len(result)-1
     #while i>=0:
     for i in range(len(result)-1, -1, -1):
         #print(result[i])
         result_str+=str(result[i])
-        i-=1
+        #i-=1
     #print(result_str)
     print(f'A {szam} {dst_numSys} számrendszer beli alakja: {result_str}')
     return result_str
